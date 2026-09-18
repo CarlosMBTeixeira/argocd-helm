@@ -13,7 +13,7 @@ spec:
       releaseName: app1
   destination:
     server: https://kubernetes.default.svc
-    namespace: app1-ns
+    namespace: app1-helm-ns
   syncPolicy:
     automated:
       prune: true
